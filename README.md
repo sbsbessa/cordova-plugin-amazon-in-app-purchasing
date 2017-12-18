@@ -7,11 +7,11 @@ By using this Cordova plugin within your app, you enable your customers to use 1
 
 For Cordova:
 
-    cordova plugin add https://github.com/DrMoriarty/cordova-plugin-amazon-in-app-purchasing.git
+    cordova plugin add https://github.com/sbsbessa/cordova-plugin-amazon-in-app-purchasing.git
 
 For PhoneGap:
 
-    phonegap local plugin add https://github.com/DrMoriarty/cordova-plugin-amazon-in-app-purchasing.git
+    phonegap local plugin add https://github.com/sbsbessa/cordova-plugin-amazon-in-app-purchasing.git
 
 ## Usage
 
