@@ -105,7 +105,7 @@ public class CordovaPurchasingListener implements PurchasingListener {
             	for (Map.Entry<String, Product> entry : response.getProductData().entrySet()) {
             	    String key = entry.getKey();
             	    productObj = entry.getValue().toJSON();
-            	    price = entry.getValue().getPrice().toJSON();
+            	    price = new JSONObject(entry.getValue().getPrice());
             	    productObj.put("price", price);
             	    productsObj.put(key, productObj);
             	}
